@@ -4275,7 +4275,12 @@ static GUI::gui_char AfterName(const GUI::gui_char *s) noexcept {
 }
 
 void SciTEBase::PerformOne(char *action) {
+#if !defined(GTK)
+	const unsigned int len = strlen(action);
+#else
+	/* NOTE: this breaks shell integration on windows. Use external file instead of trying to program on the commandline. */
 	const unsigned int len = UnSlash(action);
+#endif
 	char *arg = strchr(action, ':');
 	if (arg) {
 		arg++;
