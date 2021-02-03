@@ -49,6 +49,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SciTE_portable", "SciTE_por
 		{888196E6-A226-4545-86A0-58A3D2930048} = {888196E6-A226-4545-86A0-58A3D2930048}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DBCC21F6-8CB9-4548-A1DE-2F678C42A765}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

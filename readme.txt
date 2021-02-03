@@ -37,3 +37,6 @@ or
 	SciTE.exe
 	Scintilla.dll
 	Lexilla.dll
+
+
+Only Release|x64 mode has been tested.
